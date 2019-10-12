@@ -1,0 +1,202 @@
+2019-09-24 17:30:34,750-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:30:42,751-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 17:30:46,756-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:30:50,749-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:30:50,750-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 17:30:58,750-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 17:31:02,752-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 17:31:06,755-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 17:31:06,756-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 17:31:39,260-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-24 17:32:06,774-common.basepage-INFO-日志信息:登陆页面_用户名输入框 失败截图成功,图片存放在 D:\app_auto_test\outputs\screenshoots 目录下- [basepage.py:44 ]
+2019-09-24 17:35:47,913-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:35:55,906-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 17:35:59,907-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:36:03,907-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:36:03,910-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 17:36:11,909-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 17:36:15,909-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 17:36:19,910-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 17:36:19,911-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 17:36:27,912-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-24 17:36:31,917-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:36:35,919-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 输入文本失败- [basepage.py:113 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 109, in input_text
+    ele.send_keys(args)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "d:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.lemon.lemonban:id/et_mobile' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.KnownElements.getElementFromCache(KnownElements.java:88)
+	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:60)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+2019-09-24 17:36:59,185-common.basepage-ERROR-日志信息:截取网页截图失败- [basepage.py:46 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 109, in input_text
+    ele.send_keys(args)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "d:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.lemon.lemonban:id/et_mobile' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.KnownElements.getElementFromCache(KnownElements.java:88)
+	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:60)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:818)
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "d:\python\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "d:\python\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "d:\python\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "d:\python\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "d:\python\lib\http\client.py", line 956, in send
+    self.connect()
+  File "d:\python\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "d:\python\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000403C978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 43, in save_web_screenshot
+    self.driver.save_screenshot(output_screenshoots_dir + '/' + filepath)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "d:\python\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "d:\python\lib\site-packages\urllib3\request.py", line 68, in request
+    **urlopen_kw)
+  File "d:\python\lib\site-packages\urllib3\request.py", line 89, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "d:\python\lib\site-packages\urllib3\poolmanager.py", line 324, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "d:\python\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "d:\python\lib\site-packages\urllib3\util\retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session/add453b0-ca33-41dd-ae86-5a28c8d1ad4b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000403C978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))

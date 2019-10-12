@@ -1,0 +1,56 @@
+2019-09-24 17:19:00,282-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:19:08,267-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 17:19:12,271-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:19:16,271-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:19:16,274-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 17:19:36,285-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 17:19:40,278-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 17:19:44,280-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 17:19:44,281-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 17:19:52,279-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-24 17:19:56,285-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:20:00,289-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-24 17:20:00,291-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-24 17:20:08,290-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-24 17:20:12,287-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:20:16,295-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-24 17:20:16,299-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:20:24,288-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-24 17:20:28,299-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:20:32,289-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:20:32,290-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-24 17:20:32,292-common.basepage-ERROR-日志信息:获取toast信息失败- [basepage.py:344 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 340, in get_toast_text
+    WebDriverWait(self.driver, 10, 0.01).until(EC.presence_of_all_elements_located(loc))
+  File "d:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "d:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 161, in __call__
+    return _find_elements(driver, self.locator)
+  File "d:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 420, in _find_elements
+    return driver.find_elements(*by)
+TypeError: find_elements() takes from 1 to 3 positional arguments but 31 were given
+2019-09-24 17:24:37,535-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:24:45,552-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 17:24:49,557-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:24:53,556-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:24:53,561-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 17:25:01,555-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 17:25:05,557-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 17:25:09,555-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 17:25:09,556-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 17:25:17,564-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-24 17:25:21,559-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:25:25,558-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-24 17:25:25,558-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-24 17:25:33,564-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-24 17:25:37,568-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:25:41,560-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-24 17:25:41,563-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 17:25:49,565-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-24 17:25:53,581-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 17:25:57,589-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 17:25:57,590-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 17:26:05,585-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_expend_title')- [basepage.py:82 ]
+2019-09-24 17:26:09,584-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 17:26:13,587-common.basepage-INFO-日志信息:  元素成功获取文本- [basepage.py:151 ]

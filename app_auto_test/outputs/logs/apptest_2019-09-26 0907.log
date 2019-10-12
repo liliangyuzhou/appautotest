@@ -1,0 +1,29 @@
+2019-09-26 09:09:40,368-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 09:09:45,360-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 09:09:45,488-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:09:45,605-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 09:09:45,606-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 09:09:46,706-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 09:09:46,801-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 09:09:46,917-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 09:09:46,917-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 09:09:49,215-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-26 09:09:49,294-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:09:50,096-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 09:09:50,096-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-26 09:09:50,657-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-26 09:09:50,731-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:09:50,872-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 09:09:50,872-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 09:09:51,461-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-26 09:09:51,540-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:09:51,687-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 09:09:51,687-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-26 09:10:21,702-common.basepage-ERROR-日志信息:获取toast信息失败- [basepage.py:344 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 340, in get_toast_text
+    WebDriverWait(self.driver, 30, 0.01).until(EC.presence_of_all_elements_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

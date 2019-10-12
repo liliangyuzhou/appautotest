@@ -1,0 +1,254 @@
+2019-09-26 08:55:44,596-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:55:49,885-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 08:55:49,989-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:55:50,971-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:55:50,971-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 08:55:51,119-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 08:55:51,201-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 08:55:51,325-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 08:55:51,325-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 08:55:53,545-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-26 08:55:53,610-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:55:54,361-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:55:54,361-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-26 08:55:54,942-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-26 08:55:55,008-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:55:55,124-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:55:55,125-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:55:55,687-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-26 08:55:55,749-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:55:55,864-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:55:55,864-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-26 08:58:09,568-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:58:15,314-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 08:58:15,403-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:16,446-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:58:16,446-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 08:58:16,613-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 08:58:16,707-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:16,826-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 08:58:16,826-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 08:58:19,109-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-26 08:58:19,194-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:19,970-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:58:19,970-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-26 08:58:20,541-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-26 08:58:20,608-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:20,736-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:58:20,737-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:58:21,304-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-26 08:58:21,370-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:21,497-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:58:21,497-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-26 08:58:53,603-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:58:58,795-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 08:58:58,940-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:58:59,086-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:58:59,087-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 08:59:00,159-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 08:59:00,236-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:00,399-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 08:59:00,399-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 08:59:02,071-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-26 08:59:02,161-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:03,136-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:59:03,136-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-26 08:59:03,772-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-26 08:59:03,852-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:03,963-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 08:59:03,964-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:59:04,609-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-26 08:59:04,686-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:04,849-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:59:04,849-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-26 08:59:14,886-common.basepage-ERROR-日志信息:获取toast信息失败- [basepage.py:344 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 340, in get_toast_text
+    WebDriverWait(self.driver, 10, 0.01).until(EC.presence_of_all_elements_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-26 08:59:51,734-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 08:59:58,244-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 08:59:58,344-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:58,522-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 08:59:58,522-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 08:59:59,651-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 08:59:59,740-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 08:59:59,873-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 08:59:59,873-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 09:00:02,481-common.basepage-INFO-日志信息:获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')- [basepage.py:82 ]
+2019-09-26 09:00:02,644-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:00:03,806-common.basepage-INFO-日志信息: 登陆页面_用户名输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 09:00:03,807-common.basepage-INFO-日志信息:等待元素 登陆页面_密码输入框 可见- [basepage.py:60 ]
+2019-09-26 09:00:04,464-common.basepage-INFO-日志信息:获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')- [basepage.py:82 ]
+2019-09-26 09:00:04,601-common.basepage-INFO-日志信息: 登陆页面_密码输入框 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:00:04,760-common.basepage-INFO-日志信息: 登陆页面_密码输入框 输入文本成功- [basepage.py:110 ]
+2019-09-26 09:00:04,760-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 09:00:05,341-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')- [basepage.py:82 ]
+2019-09-26 09:00:05,436-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:00:05,617-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 09:00:05,618-common.basepage-INFO-日志信息:获取toast信息- [basepage.py:339 ]
+2019-09-26 09:00:15,739-common.basepage-ERROR-日志信息:获取toast信息失败- [basepage.py:344 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 340, in get_toast_text
+    WebDriverWait(self.driver, 10, 0.01).until(EC.presence_of_all_elements_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-26 09:01:17,470-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 09:01:21,857-common.basepage-ERROR-日志信息: 登陆页面_登陆按钮 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2019-09-26 09:01:21,998-common.basepage-ERROR-日志信息:截取网页截图失败- [basepage.py:46 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 43, in save_web_screenshot
+    self.driver.save_screenshot(output_screenshoots_dir + '/' + filepath)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2019-09-26 09:02:20,462-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 09:02:26,068-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 09:02:26,161-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 09:02:26,309-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 09:02:26,309-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 09:02:27,337-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 09:02:27,413-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 09:02:27,534-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 09:02:27,534-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 09:02:29,434-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2019-09-26 09:02:29,483-common.basepage-ERROR-日志信息:截取网页截图失败- [basepage.py:46 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 43, in save_web_screenshot
+    self.driver.save_screenshot(output_screenshoots_dir + '/' + filepath)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+

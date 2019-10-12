@@ -1,0 +1,21 @@
+INFO     common.basepage:basepage.py:60 等待元素 登陆页面_登陆按钮 可见
+INFO     common.basepage:basepage.py:82 获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')
+INFO     common.basepage:basepage.py:85  登陆页面_登陆按钮 元素定位成功
+INFO     common.basepage:basepage.py:130  登陆页面_登陆按钮 元素点击成功
+INFO     common.basepage:basepage.py:60 等待元素  可见
+INFO     common.basepage:basepage.py:82 获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')
+INFO     common.basepage:basepage.py:85   元素定位成功
+INFO     common.basepage:basepage.py:130   元素点击成功
+INFO     common.basepage:basepage.py:60 等待元素 登陆页面_用户名输入框 可见
+INFO     common.basepage:basepage.py:82 获取 登陆页面_用户名输入框 的元素定位('id', 'com.lemon.lemonban:id/et_mobile')
+INFO     common.basepage:basepage.py:85  登陆页面_用户名输入框 元素定位成功
+INFO     common.basepage:basepage.py:110  登陆页面_用户名输入框 输入文本成功
+INFO     common.basepage:basepage.py:60 等待元素 登陆页面_密码输入框 可见
+INFO     common.basepage:basepage.py:82 获取 登陆页面_密码输入框 的元素定位('id', 'com.lemon.lemonban:id/et_password')
+INFO     common.basepage:basepage.py:85  登陆页面_密码输入框 元素定位成功
+INFO     common.basepage:basepage.py:110  登陆页面_密码输入框 输入文本成功
+INFO     common.basepage:basepage.py:60 等待元素 登陆页面_登陆按钮 可见
+INFO     common.basepage:basepage.py:82 获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/btn_login')
+INFO     common.basepage:basepage.py:85  登陆页面_登陆按钮 元素定位成功
+INFO     common.basepage:basepage.py:130  登陆页面_登陆按钮 元素点击成功
+INFO     common.basepage:basepage.py:339 获取toast信息

@@ -1,0 +1,36 @@
+2019-09-24 15:46:13,562-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 15:46:21,564-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 15:46:25,572-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 15:46:29,556-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 15:46:29,557-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 15:46:37,569-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 15:46:41,564-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 15:46:45,568-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 15:46:45,572-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 15:47:18,110-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-24 15:48:03,654-common.basepage-INFO-日志信息:登陆页面_用户名输入框 失败截图成功,图片存放在 D:\app_auto_test\outputs\screenshoots 目录下- [basepage.py:44 ]
+2019-09-24 15:51:57,990-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-24 15:52:05,982-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-24 15:52:09,989-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-24 15:52:13,983-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-24 15:52:13,985-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-24 15:52:21,998-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-24 15:52:25,995-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-24 15:52:30,000-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-24 15:52:30,002-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-24 15:53:02,526-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-24 15:53:48,089-common.basepage-INFO-日志信息:登陆页面_用户名输入框 失败截图成功,图片存放在 D:\app_auto_test\outputs\screenshoots 目录下- [basepage.py:44 ]

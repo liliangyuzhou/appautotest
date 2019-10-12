@@ -1,0 +1,81 @@
+2019-09-26 15:28:07,664-common.basepage-INFO-日志信息:等待元素 登陆页面_登陆按钮 可见- [basepage.py:60 ]
+2019-09-26 15:28:13,781-common.basepage-INFO-日志信息:获取 登陆页面_登陆按钮 的元素定位('id', 'com.lemon.lemonban:id/navigation_my')- [basepage.py:82 ]
+2019-09-26 15:28:13,925-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素定位成功- [basepage.py:85 ]
+2019-09-26 15:28:15,116-common.basepage-INFO-日志信息: 登陆页面_登陆按钮 元素点击成功- [basepage.py:130 ]
+2019-09-26 15:28:15,116-common.basepage-INFO-日志信息:等待元素  可见- [basepage.py:60 ]
+2019-09-26 15:28:15,318-common.basepage-INFO-日志信息:获取  的元素定位('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout')- [basepage.py:82 ]
+2019-09-26 15:28:15,441-common.basepage-INFO-日志信息:  元素定位成功- [basepage.py:85 ]
+2019-09-26 15:28:15,578-common.basepage-INFO-日志信息:  元素点击成功- [basepage.py:130 ]
+2019-09-26 15:28:15,578-common.basepage-INFO-日志信息:等待元素 登陆页面_用户名输入框 可见- [basepage.py:60 ]
+2019-09-26 15:28:19,129-common.basepage-ERROR-日志信息: 登陆页面_用户名输入框 等待元素可见失败- [basepage.py:69 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2019-09-26 15:28:19,195-common.basepage-ERROR-日志信息:截取网页截图失败- [basepage.py:46 ]
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 63, in visible_element
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 276, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\app_auto_test\common\basepage.py", line 43, in save_web_screenshot
+    self.driver.save_screenshot(output_screenshoots_dir + '/' + filepath)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+

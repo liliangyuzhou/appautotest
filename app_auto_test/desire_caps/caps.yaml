@@ -1,0 +1,9 @@
+automationName: UiAutomator2
+platformName: Android
+platformVersion: 5.0
+deviceName: Android Emulator
+noReset: True
+appPackage: com.lemon.lemonban     #com.xxzb.fenwoo
+appActivity: com.lemon.lemonban.activity.WelcomeActivity   #com.xxzb.fenwoo.activity.addition.WelcomeActivity
+
+

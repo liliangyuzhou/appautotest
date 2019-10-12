@@ -1,0 +1,19 @@
+#此文件主要用于非原生webview的测试，例如微信的小程序
+platformName: Android
+platformVersion: 5.0
+deviceName: Android Emulator
+noReset: True
+appPackage: com.lemon.lemonban     #com.xxzb.fenwoo
+appActivity: com.lemon.lemonban.activity.WelcomeActivity   #com.xxzb.fenwoo.activity.addition.WelcomeActivity
+#支持X5内核应用自动化配置
+recreateChromeDriverSessions: True
+# 这里为webview指定的chromedriver的路径
+chromedriverExecutableDir: D:/ChromeDrivers/chromedriver52.exe
+
+# ChromeOptions使用来定制启动选项，因为在appium中切换context识别webview的时候,
+# 把com.tencent.mm:toolsmp的webview识别成com.tencent.mm的webview.
+# 所以为了避免这个问题，加上androidProcess: com.tencent.mm:toolsm
+# options = wb.ChromeOptions()
+# options.add_experimental_option("androidProcess","com.tencent.mm:toolsmp")
+chromeOptions: {"androidProcess":"com.tencent.mm:appbrand0"}
+browserName: ""
